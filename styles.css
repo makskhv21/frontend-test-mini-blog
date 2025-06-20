@@ -85,3 +85,12 @@ section p {
     font-size: 1rem;
     line-height: 1.6;
 }
+
+.site-footer {
+    background-color: #1e2a38;
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+}
