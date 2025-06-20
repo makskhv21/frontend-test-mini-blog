@@ -9,19 +9,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <main class="container">
-    <h1>Створення публікації</h1>
-    <form id="postForm">
-      <input type="text" id="postForm-title" placeholder="Заголовок" required />
-      <textarea id="postForm-body" placeholder="Текст публікації" required></textarea>
-      <button type="submit" id="postForm-submitBtn" disabled>Опублікувати</button>
-    </form>
+    <header class="site-header">
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="contacts.html" class="active">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h1>Створення публікації</h1>
+        <form id="postForm">
+            <input type="text" id="postForm-title" placeholder="Заголовок" required />
+            <textarea id="postForm-body" placeholder="Текст публікації" required></textarea>
+            <button type="submit" id="postForm-submitBtn" disabled>Опублікувати</button>
+        </form>
 
-    <section>
-      <h2>Публікації</h2>
-      <div id="postsList" class="posts-list"></div>
-    </section>
-  </main>
+        <section>
+            <h2>Публікації</h2>
+            <div id="postsList" class="posts-list"></div>
+        </section>
+    </main>
 
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
   <script src="main.js"></script>
