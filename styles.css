@@ -5,3 +5,31 @@ body {
     color: #333;
 }
 
+.site-header {
+    background-color: #1e2a38;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}    
+    
+.nav a.active, 
+.nac a:hover {
+    background-color: #2f3f52;
+}
