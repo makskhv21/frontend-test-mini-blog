@@ -33,3 +33,55 @@ body {
 .nac a:hover {
     background-color: #2f3f52;
 }
+
+.container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+    align-items: center;
+}
+
+.avatar img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile-info {
+    flex: 1;
+    min-width: 280px;
+}
+
+.profile-info h1 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #1e2a38;
+}
+
+.profile-info h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #4a6275;
+}
+
+section h2 {
+    color: #2b3e50;
+    margin-top: 2rem;
+}
+
+section p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
